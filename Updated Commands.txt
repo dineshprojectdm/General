@@ -14,10 +14,16 @@ vi /etc/hosts
   >> Reeboot
 
 
-# apt install net-tools
+# apt install net-tools [netstat packages]
 # yum install net-tools 
 
-# yum install firewalld [For working on Firewall]
 
-Change welcome page in Nginx
+Firewall - commands
+--------------------
+# yum install firewalld [For working on Firewall]
+# firewall-cmd --zone=public --add-port=80/tcp
+#	firewall-cmd --zone=public --add-port=80/tcp --permanent
+
+
+** Change welcome page in Nginx
 /usr/share/nginx/html;

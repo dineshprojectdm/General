@@ -1,0 +1,23 @@
+Important Commands
+==================
+
+# ss -tulpn  - [netstat -atnlp]
+
+# ss dst 49.204.116.238   [What ip using putty] - Enter ip of laptop
+
+# hostnamectl [for all]
+
+# hostnamectl set-hostname HaProxy
+
+vi /etc/hosts
+  >> Private ip space ServerName
+  >> Reeboot
+
+
+# apt install net-tools
+# yum install net-tools 
+
+# yum install firewalld [For working on Firewall]
+
+Change welcome page in Nginx
+/usr/share/nginx/html;

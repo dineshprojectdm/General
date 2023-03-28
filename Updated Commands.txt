@@ -26,4 +26,4 @@ Firewall - commands
 
 
 ** Change welcome page in Nginx
-/usr/share/nginx/html;
+/usr/share/nginx/html 
